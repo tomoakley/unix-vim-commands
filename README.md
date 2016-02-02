@@ -1,4 +1,4 @@
-Unix/vi commands
+# Unix/vi commands
 
 ## Unix commands:
 
@@ -16,7 +16,7 @@ If there is only directory in the current directory type cd and press tab and it
 Combining these two things, in ~/Jetty, type cd s, and press tab 3 times. This 1) autocompletes s to src 2) works out that src only has one child directory (ubiserv), and ubiserv only has one directory (simple). So cd s<tab><tab><tab> autocompletes to cd src/ubiserv/simple, where the Java files reside. Shortcuts, ftw!
 
 Software installed on the server:
-- **mysql* - database software
+- **mysql** - database software
 - **vi** - text editor
 - **ant** - build tool
 - **jetty** - web server
@@ -50,5 +50,3 @@ vi Command mode commands
 vi Insert mode:
 - **esc** - exit insert mode
 backspace will not work in insert mode, until you exit insert mode. If you backspace, it will go back a character, where you can overwrite that character.
-
-
