@@ -25,7 +25,7 @@ Software installed on the server:
 
 vi is one of the default Unix text editors. It was created in 1976 (i.e before mice had been invented), hence why mice cannot be used to navigate it.
 
-vi has two modes: command mode and insert mode. In command mode, you can move around, delete lines, etc. In insert mode, you can insert, and ONLY insert (no deletion, etc).
+vi has two modes: command mode and insert mode. In command mode, you can move around, delete lines, etc. In insert mode, you can insert, and ONLY insert (no deletion, etc - although backspace can overwrite characters, see below).
 
 vi will create .swp files and will warn you of the existance of these when you start vi and a .swp file exists for the file you want to edit. Quit vi (:q), type rm -rf .filename.swp, enter, and then start vi again.
 
@@ -35,7 +35,7 @@ vi Command mode commands
 - **dd** - delete line
 - **i** - enter insert mode and insert at that character
 - **a** - enter insert mode and insert after that character
-- *$ (shift 4)** - end of line
+- **$ (shift 4)** - end of line
 - **^ (shift 6)** - start of line
 - **w** - move to next word
 - **b** - move to previous word
@@ -49,4 +49,4 @@ vi Command mode commands
 
 vi Insert mode:
 - **esc** - exit insert mode
-backspace will not work in insert mode, until you exit insert mode. If you backspace, it will go back a character, where you can overwrite that character.
+- backspace will not work in insert mode, until you exit insert mode. If you backspace, it will go back a character, where you can overwrite that character.
