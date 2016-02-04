@@ -42,7 +42,9 @@ vi is one of the default Unix text editors. It was created in 1976 (i.e before m
 
 vi has two modes: command mode and insert mode. In command mode, you can move around, delete lines, etc. In insert mode, you can insert, and *ONLY* insert (no deletion, etc - although backspace can overwrite characters, see below).  
 
-vi will create .swp files and will warn you of the existance of these when you start vi and a .swp file exists for the file you want to edit. Quit vi (:q), type rm -rf .filename.swp, enter, and then start vi again.  
+vi will create .swp files and will warn you of the existance of these when you start vi and a .swp file exists for the file you want to edit. Quit vi (:q), type rm -rf .filename.swp, enter, and then start vi again.
+
+If you like to learn via a game, checkout [http://vim-adventures.com/]. Although this teaches Vim rather than Vi, it's a fork with pretty much the same standard as Vi just with some extras. (You can even enable mouse input). Vim can be installed by running `sudo apt-get install vim`.
 
 ### vi Command mode commands 
 
