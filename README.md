@@ -14,7 +14,7 @@ Unix is an architecture for Operating Systems. It is used to run many Operating 
 
 ## Unix Commands
 
-- **cd** - change directory. To go up to the parent, type cd ../. Without any paramaters, cd will just default to the home directory.
+- `cd` - change directory. To go up to the parent, type cd ../. Without any paramaters, cd will just default to the home directory.
 - **rm** - delete directory
 - **rm -rf** - delete file
 - **touch** - create file
